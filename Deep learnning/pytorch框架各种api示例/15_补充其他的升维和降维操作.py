@@ -26,6 +26,8 @@ t7 = t6.squeeze()
 print(t7, t7.shape, t7.ndim)
 # TODO 创建一个高维的张量,然后完成降维操作
 t8 = torch.randint(1, 5, size=(1, 2, 1, 1, 5, 1, 3))
+# t9 = torch.squeeze(t8)
+# print(t9.shape, t9.ndim)
 print(t8.shape,t8.ndim)
 t8.squeeze_()
 print(t8.shape,t8.ndim)
